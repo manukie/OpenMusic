@@ -1,0 +1,54 @@
+button {
+    border: none;
+}
+
+.mode__controller:hover {
+    cursor: pointer;
+    background-color: var();
+}
+
+.usualButton {
+    background-color: var(--color-grey-8);
+    width: 4.5rem;
+    height: 1.8rem;
+    border-radius: var(--radius-1);
+    color: var(--color-grey-0);
+}
+
+.usualButton:hover { 
+    cursor: pointer;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-9);
+}
+
+.usualButton--active {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-9);
+}
+
+.usualButton--active:hover {
+    cursor: pointer;
+}
+
+.buyButton {
+    background-color: var(--color-grey-7);
+    width: 4.5rem;
+    height: 1.8rem;
+    border-radius: var(--radius-1);
+    color: var(--color-grey-0);
+}
+
+.buyButton:hover { 
+    cursor: pointer;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-9);
+}
+
+.buyButton--active {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-9);
+}
+
+.buyButton--active:hover {
+    cursor: pointer;
+}
